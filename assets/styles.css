@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url("fonts/MonumentExtended-Ultrabold.woff2") format('woff2'),
+        url("fonts/MonumentExtended-Ultrabold.woff") format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url("fonts/MonumentExtended-Regular.woff2") format('woff2'),
+        url("fonts/MonumentExtended-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'PTRootUIWebRegular';
+	src: url("fonts/PT%20Root%20UI_Regular.eot");
+	src:
+	     url("fonts/PT%20Root%20UI_Regular.eot?#iefix") format('embedded-opentype'),
+	     url("fonts/PT%20Root%20UI_Regular.woff2") format('woff2'),
+	     url("fonts/PT%20Root%20UI_Regular.woff") format('woff'),
+	     url("fonts/PT%20Root%20UI_Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    font-family: "MonumentExtended-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background:#112B6F;
+    color: #fff;
+    max-width: 1441px;
+    box-sizing: border-box;
+    margin-left: 56px;
+
+}
+.positioned {
+    display: inline-block;
+    width: 84px;
+    height: 54px;
+    color: #E8D723;
+    font-size: 43px;
+}
+#AB {
+    position: relative;
+    left: 56px;
+    top: 42px;
+}
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+#about {
+    position: relative;
+    left: 500px;
+    top: 42px;
+}
+#works {
+    position: relative;
+    left: 520px;
+    top: 42px;
+}
+#contact {
+    position: relative;
+    left: 540px;
+    top: 42px;
+}
+
+.logo {
+    font-size: 43px;
+    color: #E8D723;
+    margin-right: 800px;
+}
+.nav {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    
+
+}
+h1 {
+    font-size: 100px;
+    color: #E8D723;
+    display: flex;
+    align-items: center;
+    width: 970px;
+}
+#h1 {
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+.offer-2 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+
+}
+#h2 {
+    position: relative;
+    left: 200px;
+    top: 60px;
+
+}
+.line {
+    border: 2px solid #E7D51C;
+    width: 1315px;
+    margin-top: 249px;
+}
+.section-1 {
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.number h2 {
+    font-size: 64px;
+
+} 
+h3 {
+    font-size: 48px;
+    color: #E7D51C;
+}
+p {
+    font-family: "PTRootUIWebRegular";
+    font-style: normal;
+    font-size: 14px;
+    width: 531px;
+    margin-top: -20px;
+}
+#photo-1 {
+    position: relative;
+    width: 640px;
+    height: 557px;
+    left: 600px;
+    top: -240px;
+    
+}
+#arrow {
+    position: relative;
+    width: 68px;
+    height: 85px;
+    left: 450px;
+    top: -400px;
+}
